@@ -1,0 +1,4 @@
+E:\To be done\Programming\Juke_Box\Juke_Box\Duke_Box\obj\Debug\Duke_Box.csprojResolveAssemblyReference.cache
+E:\To be done\Programming\Juke_Box\Juke_Box\Duke_Box\obj\Debug\Interop.WMPLib.dll
+E:\To be done\Programming\Juke_Box\Juke_Box\Duke_Box\obj\Debug\AxInterop.WMPLib.dll
+E:\To be done\Programming\Juke_Box\Juke_Box\Duke_Box\obj\Debug\Duke_Box.csproj.ResolveComReference.cache
