@@ -36,13 +36,13 @@ namespace Duke_Box
         private void setupToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 myForm = new Form2();
-            myForm.Show();
+            myForm.Show();//This opens the setup and then allows us to close after use.
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form3 myForm = new Form3();
-            myForm.Show();
+            myForm.Show();// This opens the about and then allows us to close after use.
         }
     }
 }

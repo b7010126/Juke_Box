@@ -58,11 +58,13 @@
             // 
             // txtDescription
             // 
+            this.txtDescription.AccessibleDescription = "";
             this.txtDescription.FormattingEnabled = true;
             this.txtDescription.Location = new System.Drawing.Point(207, 58);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(187, 225);
             this.txtDescription.TabIndex = 2;
+            this.txtDescription.SelectedIndexChanged += new System.EventHandler(this.txtDescription_SelectedIndexChanged);
             // 
             // vScrollBar1
             // 

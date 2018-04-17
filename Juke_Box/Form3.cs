@@ -27,7 +27,12 @@ namespace Duke_Box
         {
             Form3 log = new Form3 ();
             this.Close();
-            log.Show();
+            log.Show();// This allows you to close the form.
+        }
+
+        private void txtDescription_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
