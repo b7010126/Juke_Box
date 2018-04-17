@@ -22,3 +22,8 @@ E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\Duke_Box.csproj.G
 E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\Duke_Box.csproj.CoreCompileInputs.cache
 E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\Duke_Box.exe
 E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\Duke_Box.pdb
+E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\bin\Debug\Interop.WMPLib.dll
+E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\bin\Debug\AxInterop.WMPLib.dll
+E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\Interop.WMPLib.dll
+E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\AxInterop.WMPLib.dll
+E:\To be done\Programming\Juke_Box\Juke_Box\Juke_Box\obj\Debug\Duke_Box.csproj.ResolveComReference.cache
