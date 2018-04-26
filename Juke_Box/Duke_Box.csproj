@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App.xaml.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +64,7 @@
     <Compile Include="Juke_Box.Designer.cs">
       <DependentUpon>Juke_Box.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainPage.xaml.cs" />
     <Compile Include="MyDialogs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
