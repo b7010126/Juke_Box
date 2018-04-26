@@ -21,9 +21,19 @@ namespace Duke_Box
             public string MediaPath = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
         public int NumberofGenre;
         ListBox[] mediaLibrary;// i have created a string for my media library 
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+    private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -35,12 +45,13 @@ namespace Duke_Box
 
         private void Form1_Load(object sender, EventArgs e)
         {
-        StreamReader inputStream = File.OpenText(@"C:E:\To be done\Programming\Juke_Box\Juke_Box\Assignment 2 My Juke Box\Media_TEXT");//location  of the media text file
-        NumberofGenre = Convert.ToInt32(inputStream.ReadLine());
-        mediaLibrary = new ListBox[NumberofGenre];//creates new list box
-        }
 
-        private void setupToolStripMenuItem_Click(object sender, EventArgs e)
+      
+    }
+
+}
+
+private void setupToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 myForm = new Form2();
             myForm.Show();//This opens the setup and then allows us to close after use.
