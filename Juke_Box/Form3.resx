@@ -857,4 +857,13 @@
         rsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVdirsVf/2Q==
 </value>
   </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>The 'My Juke Box v1.0', 
+application was developed for my first year 
+Undergraduate on the module 
+'Programming for Computers' at Sheffield Hallam University.
+The application allows 
+media files to be played and also 
+allows users to insert tracks into the juke box application.</value>
+  </data>
 </root>
