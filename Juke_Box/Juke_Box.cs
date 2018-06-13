@@ -36,9 +36,31 @@ namespace Duke_Box
             mediaLibrary = new ListBox[total_number_of_genrea];
 
             for (int g = 0; g < total_number_of_genrea; g++)
+            {
+                mediaLibrary[g] = new ListBox();
+
+                total_number_of_tracks = Convert.ToInt32(myInputStream.ReadLine());
+
+                for (int t = 0; t <= total_number_of_tracks; t++)
+
+                {
+
+                    mediaLibrary[g].Items.Add(myInputStream.ReadLine());
+
+                }
+            }
+
+
+
+            myInputStream.Close();// closes the file
+
+
+
+
+            Update_interface(2);// update the interface
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+            private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             
         }
