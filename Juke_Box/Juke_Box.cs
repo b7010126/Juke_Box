@@ -29,6 +29,13 @@ namespace Duke_Box
             int total_number_of_genrea;
 
             int total_number_of_tracks;//Total number of tracks
+            string applicationPath = Directory.GetCurrentDirectory() + "\\Media\\"; // This creates a media file and shows the location
+
+            total_number_of_genrea = Convert.ToInt32(myInputStream.ReadLine());
+
+            mediaLibrary = new ListBox[total_number_of_genrea];
+
+            for (int g = 0; g < total_number_of_genrea; g++)
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
