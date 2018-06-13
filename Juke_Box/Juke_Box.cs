@@ -24,7 +24,11 @@ namespace Duke_Box
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string lineOfText;//The location of the application
 
+            int total_number_of_genrea;
+
+            int total_number_of_tracks;//Total number of tracks
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -63,4 +67,4 @@ private void setupToolStripMenuItem_Click(object sender, EventArgs e)
             myForm.Show();// This opens the about and then allows us to close after use.
         }
     }
-}
+

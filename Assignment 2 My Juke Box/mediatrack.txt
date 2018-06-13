@@ -1,0 +1,10 @@
+2
+Other
+Big Bad John (1961) - Jimmy Dean.mp3
+My Ding A Ling - Chuck Berry.mp3
+
+
+
+  StreamReader inputStream = File.OpenText(@"C:E:\To be done\Programming\Juke_Box\Juke_Box\Assignment 2 My Juke Box\Media_TEXT");//location  of the media text file
+        NumberofGenre = Convert.ToInt32(inputStream.ReadLine());
+        mediaLibrary = new ListBox[NumberofGenre];//creates new list box
