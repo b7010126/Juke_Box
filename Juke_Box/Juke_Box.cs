@@ -60,7 +60,31 @@ namespace Duke_Box
             Update_interface(2);// update the interface
         }
 
-            private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+
+
+        private void Update_interface(int index)
+
+        {
+
+            Gnre_lst_bx.Items.Clear();//clears the last genera
+
+            Genre_title.Text = "";
+
+
+
+
+            Genre_title.Text = mediaLibrary[index].Items[0].ToString();
+
+            for (int i = 1; i < mediaLibrary[index].Items.Count; i++)//count
+
+            {
+
+                Gnre_lst_bx.Items.Add(mediaLibrary[index].Items[i].ToString());
+
+            }
+
+        }
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             
         }
